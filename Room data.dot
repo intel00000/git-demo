@@ -1,0 +1,25 @@
+graph {
+    101 [label = "101", description = "Computer Lab"];
+    102 [label = "102", description = "Science Laboratory"];
+    103 [label = "103", description = "Art Studio"];
+    104 [label = "104", description = "Music Room"];
+    105 [label = "105", description = "Library"];
+    106 [label = "106", description = "Conference Room"];
+    107 [label = "107", description = "Faculty Office"];
+    108 [label = "108", description = "Student Lounge"];
+    109 [label = "109", description = "Gymnasium"];
+    110 [label = "110", description = "Cafeteria"];
+
+
+    // distance
+    101 -- 102 [distance = 10;];
+    102 -- 103 [distance = 7;];
+    103 -- 104 [distance = 5;];
+    104 -- 105 [distance = 12;];
+    105 -- 106 [distance = 4;];
+    106 -- 107 [distance = 9;];
+    107 -- 108 [distance = 6;];
+    108 -- 109 [distance = 3;];
+    109 -- 110 [distance = 11;];
+    110 -- 101 [distance = 8;];
+}
